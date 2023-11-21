@@ -13,22 +13,23 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://KurotaniTakeo.github.io/2023/11/10/着手写自己的第一篇博客！/"/>
+    <link rel="canonical" href="https://KurotaniTakeo.github.io/2023/11/22/c-面向对象——一些基础例题及代码/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="特别感谢！                  Hytousuce、WindSpiritSR            就在几小时前，我成功部署了自己的博客。作为博客的第一篇文章，在这里记录一下我从萌生创建博客的想法，到付诸行动，直至完成部署的全过程。 第一次写相关的内容，行文有点拖沓，或者读起来有很多难受的地方，还请见谅 uwu 萌生想法大一下时，我接触了一点点皮毛就什么">
+        <meta name="description" content="在此存放一些个人的 C++作业例题以及自己的解答。随缘更新 uwu 1. Destructure Function and Overloaded Operator.The Question:Give the definitions for the member function addValue, the copy constructor, the overloaded assignment op">
 <meta property="og:type" content="article">
-<meta property="og:title" content="着手写自己的第一篇博客！">
-<meta property="og:url" content="https://kurotanitakeo.github.io/2023/11/10/%E7%9D%80%E6%89%8B%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%81/index.html">
+<meta property="og:title" content="C++面向对象——一些基础例题及代码">
+<meta property="og:url" content="https://kurotanitakeo.github.io/2023/11/22/C-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E2%80%94%E2%80%94%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98%E5%8F%8A%E4%BB%A3%E7%A0%81/index.html">
 <meta property="og:site_name" content="塔克欧的小狼屋">
-<meta property="og:description" content="特别感谢！                  Hytousuce、WindSpiritSR            就在几小时前，我成功部署了自己的博客。作为博客的第一篇文章，在这里记录一下我从萌生创建博客的想法，到付诸行动，直至完成部署的全过程。 第一次写相关的内容，行文有点拖沓，或者读起来有很多难受的地方，还请见谅 uwu 萌生想法大一下时，我接触了一点点皮毛就什么">
+<meta property="og:description" content="在此存放一些个人的 C++作业例题以及自己的解答。随缘更新 uwu 1. Destructure Function and Overloaded Operator.The Question:Give the definitions for the member function addValue, the copy constructor, the overloaded assignment op">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-11-09T18:40:41.000Z">
-<meta property="article:modified_time" content="2023-11-21T17:46:45.809Z">
+<meta property="article:published_time" content="2023-11-21T17:19:44.000Z">
+<meta property="article:modified_time" content="2023-11-21T17:48:12.160Z">
 <meta property="article:author" content="Kurotani Takeo">
-<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="Study">
 <meta name="twitter:card" content="summary">
     
     
@@ -41,7 +42,7 @@
     
     <title>
         
-            着手写自己的第一篇博客！ -
+            C++面向对象——一些基础例题及代码 -
         
         Wolf Cottage
     </title>
@@ -326,7 +327,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">着手写自己的第一篇博客！</h1>
+                    <h1 class="article-title-regular text-second-text-color text-4xl md:text-6xl font-bold px-2 sm:px-6 md:px-8 py-3">C++面向对象——一些基础例题及代码</h1>
                 </div>
             
             </div>
@@ -345,15 +346,15 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2023-11-10 02:40:41</span>
-        <span class="mobile">2023-11-10 02:40:41</span>
+        <span class="desktop">2023-11-22 01:19:44</span>
+        <span class="mobile">2023-11-22 01:19:44</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-11-22 01:46:45</span>
-            <span class="mobile">2023-11-22 01:46:45</span>
+            <span class="desktop">2023-11-22 01:48:12</span>
+            <span class="mobile">2023-11-22 01:48:12</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -367,7 +368,7 @@
                     
                         
                         <li>
-                            <a href="/categories/Experience/">Experience</a>&nbsp;
+                            <a href="/categories/Self-use/">Self-use</a>&nbsp;
                         </li>
                     
                     
@@ -381,7 +382,11 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Hexo/">Hexo</a>&nbsp;
+                        <a href="/tags/C/">C++</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Study/">Study</a>&nbsp;
                     </li>
                 
             </ul>
@@ -403,80 +408,11 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-heart"></i><p>特别感谢！</p>
+            <p>在此存放一些个人的 C++作业例题以及自己的解答。随缘更新 uwu</p>
+<h2 id="1-Destructure-Function-and-Overloaded-Operator"><a href="#1-Destructure-Function-and-Overloaded-Operator" class="headerlink" title="1. Destructure Function and Overloaded Operator."></a>1. Destructure Function and Overloaded Operator.</h2><h3 id="The-Question"><a href="#The-Question" class="headerlink" title="The Question:"></a>The Question:</h3><p>Give the definitions for the member function addValue, the copy constructor, the overloaded assignment operator, the overloaded operator&lt;&lt;,and the destructor for the following class. This class is intended to be a class for a partially filled array. The member variable numberUsed contains the number of array positions currently filled. The other constructor definition is given to help you get started.</p>
+<div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">PartFilledArray</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">  <span class="built_in">PartFilledArray</span>(<span class="type">int</span> arraySize);</span><br><span class="line">  <span class="built_in">PartFilledArray</span>(<span class="type">const</span> PartFilledArray&amp; object);</span><br><span class="line">  ~<span class="built_in">PartFilledArray</span>();</span><br><span class="line">  <span class="type">void</span> <span class="keyword">operator</span> =(<span class="type">const</span> PartFilledArray&amp; rightSide);</span><br><span class="line">  <span class="keyword">friend</span> ostream&amp; <span class="keyword">operator</span>&lt;&lt;(ostream&amp; outs, <span class="type">const</span> PartFilledArray&amp; object);</span><br><span class="line">  <span class="function"><span class="type">void</span> <span class="title">addValue</span><span class="params">(<span class="type">double</span> newEntry)</span></span>;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">  <span class="type">double</span> *a;</span><br><span class="line">  <span class="type">int</span> maxNumber;</span><br><span class="line">  <span class="type">int</span> numberUsed;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">PartFilledArray::<span class="built_in">PartFilledArray</span>(<span class="type">int</span> arraySize) : <span class="built_in">maxNumber</span>(arraySize), <span class="built_in">numberUsed</span>(<span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line"> a = <span class="keyword">new</span> <span class="type">double</span>[maxNumber];</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
 
-    </div>
-    <div class="notel-content">
-      <p>Hytousuce、WindSpiritSR </p>
-
-    </div>
-  </div>
-
-<p>就在几小时前，我成功部署了自己的博客。作为博客的第一篇文章，在这里记录一下我从萌生创建博客的想法，到付诸行动，直至完成部署的全过程。</p>
-<p>第一次写相关的内容，行文有点拖沓，或者读起来有很多难受的地方，还请见谅 uwu</p>
-<h2 id="萌生想法"><a href="#萌生想法" class="headerlink" title="萌生想法"></a>萌生想法</h2><p>大一下时，我接触了一点点皮毛就什么都想试试，即使是在完全没弄清楚“这东西是啥”的情况下，主打又菜又想玩。</p>
-<p>2023 年 4 月，网上冲浪的我，浏览了一些大佬的个人博客后，有了创建属于自己的个人博客的想法（被花里胡哨的 CSS 迷惑了双眼）。首次对外提出这个想法是在与 Hytousuce 的聊天中，随后 Hytou 推荐了 HEXO 博客框架。当时我浅浅看了一下文档，安装好了<strong>Git</strong>和<strong>Node.js</strong>做了一些准备。</p>
-<p>然后半期考试来了。</p>
-<p>在各学科总分里，半期考试和任务的占比还算高，可耽误不得。于是搭建博客的事情被搁置了。</p>
-<p>“之后再来吧。”</p>
-<p>直到 5 天前……</p>
-<h2 id="再次行动"><a href="#再次行动" class="headerlink" title="再次行动"></a>再次行动</h2><p>2023 年 11 月 5 日，也是和 Hytousuce 聊天的过程中，谈到了关于域名的事情。这段时间兴起购买原神相关域名并解析到自己大学的行为（比如<a class="link"   target="_blank" rel="noopener" href="https://www.中国原神大学.com/"  title="实际上是中国石油大学（">中国原神大学 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>）</p>
-<p>随后 Hytou 向我展示了在阿里云的域名列表，引起了我的注意。我想是否能在里面找到有自己的特征的域名。</p>
-<p>我的昵称 Kurotani Takeo，简化-&gt;KuroTake，再简化-&gt;krtk</p>
-<p>搜索一下：</p>
-<table>
-<thead>
-<tr>
-<th align="center">域名</th>
-<th align="center">价格&#x2F;年</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">krtk.top</td>
-<td align="center">￥ 26</td>
-</tr>
-<tr>
-<td align="center">krtk.co</td>
-<td align="center">￥ 1349</td>
-</tr>
-<tr>
-<td align="center">krtk.cn</td>
-<td align="center">￥ 1691</td>
-</tr>
-<tr>
-<td align="center">krtk.xyz</td>
-<td align="center">￥ 8156</td>
-</tr>
-<tr>
-<td align="center">krtk.com</td>
-<td align="center">￥ 86390</td>
-</tr>
-<tr>
-<td align="center">……</td>
-<td align="center">……</td>
-</tr>
-</tbody></table>
-<p>以一只带学生的财力，相信目标一目了然。短域名和价格让我一眼相中了“<strong>krtk.top”</strong></p>
-<blockquote>
-<p>Hytou：“买了吧，过了这村没这店”<br>Hytou：“如果呢接受 我觉得买了比较好”<br>Hytou：“四个字母的域名挺有价值了”<br>Hytou：“我觉得买了好，毕竟 26 不算贵”</p>
-</blockquote>
-<p>然后就买了。</p>
-<p>买了域名我能做什么？</p>
-<p>我想起来半年前的想法：要不我搭建个人博客吧？</p>
-<h2 id="动手"><a href="#动手" class="headerlink" title="动手"></a>动手</h2><p>大二上，一学期最忙的三周半总算过去了。没有作业和任务，绝佳的机会。</p>
-<p>从昨晚 11 点直到刚才，我一直在调整博客的配置。其过程太过于头疼和令人高血压（主要是因为本人在这方面过于无知），于是略去大部分步骤简单讲讲：</p>
-<p>HEXO 安装，跟着<a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/"  title="Documents">官网文档 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>和<a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/370635512"  title="村雨遥 - 超详细 Hexo + Github Pages 博客搭建教程">知乎的教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>做完了准备工作。</p>
-<p>第一个问题出在域名的解析上。也许是校园网的缘故，我获取到的 GitHub Pages 的 IP 地址一直是 198.18.0.xx 的内网 IP……（我还拿去解析了草）（最后由 Hytou 帮忙 Ping 出了正确的 IP 地址）</p>
-<p>随后，krtk.top 能访问了，但是 CSS 并未起作用……后来才发现我照着 config 的注释，在 url 填写了 KurotaniTakeo.github.io&#x2F;project，而事实是根本不用加上最后那个&#x2F;project……</p>
-<p>最后，找到了个米米的 HEXO theme，但是也许是碰到了 theme 配置文件中一些不该碰的东西，于是 CSS 再次失效了……</p>
-<p>直到刚才，大部分内容才准备妥当。</p>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>这就是这个博客从想法到实际的整个过程（结尾得好突然）</p>
-<p>本想发表一些自认为很深刻的感想，但是想着这篇又臭又长的第一篇博客（日记？）已经烂了个彻底了，于是删掉了那些自己看了都像是为了完成目的而写的总结。何况看到这儿的人也不多，随便写写便是（</p>
-<p>还是有一些成就感的。毕竟在此之前，我一直认为搭建博客是在我大学毕业之后才会去尝试的事。</p>
-<p>希望我能坚持把博客写下去吧——</p>
+<h3 id="My-Solution"><a href="#My-Solution" class="headerlink" title="My Solution:"></a>My Solution:</h3><div class="highlight-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">PartFilledArray</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">PartFilledArray</span>(<span class="type">int</span> arraySize);</span><br><span class="line">    <span class="built_in">PartFilledArray</span>(<span class="type">const</span> PartFilledArray &amp;object);</span><br><span class="line">    ~<span class="built_in">PartFilledArray</span>();</span><br><span class="line">    <span class="type">void</span> <span class="keyword">operator</span>=(<span class="type">const</span> PartFilledArray &amp;rightSide);</span><br><span class="line">    <span class="keyword">friend</span> ostream &amp;<span class="keyword">operator</span>&lt;&lt;(ostream &amp;outs, <span class="type">const</span> PartFilledArray &amp;object);</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">addValue</span><span class="params">(<span class="type">double</span> newEntry)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">double</span> *a;</span><br><span class="line">    <span class="type">int</span> maxNumber;</span><br><span class="line">    <span class="type">int</span> numberUsed;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">PartFilledArray::<span class="built_in">PartFilledArray</span>(<span class="type">int</span> arraySize) : <span class="built_in">maxNumber</span>(arraySize), <span class="built_in">numberUsed</span>(<span class="number">0</span>)</span><br><span class="line">&#123;</span><br><span class="line">    a = <span class="keyword">new</span> <span class="type">double</span>[maxNumber];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Member function addValue</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">PartFilledArray::addValue</span><span class="params">(<span class="type">double</span> newEntry)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (numberUsed &lt; maxNumber) &#123;</span><br><span class="line">        a[numberUsed] = newEntry;</span><br><span class="line">        numberUsed++;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Error: Adding value to a full array.\n&quot;</span>;</span><br><span class="line">        <span class="built_in">exit</span>(EXIT_FAILURE);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Copy constructor</span></span><br><span class="line">PartFilledArray::<span class="built_in">PartFilledArray</span>(<span class="type">const</span> PartFilledArray&amp; object) : <span class="built_in">maxNumber</span>(object.maxNumber), <span class="built_in">numberUsed</span>(object.numberUsed) &#123;</span><br><span class="line">    a = <span class="keyword">new</span> <span class="type">double</span>[maxNumber];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; numberUsed; i++) &#123;</span><br><span class="line">        a[i] = object.a[i];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Overloaded assignment operator</span></span><br><span class="line"><span class="type">void</span> PartFilledArray::<span class="keyword">operator</span> =(<span class="type">const</span> PartFilledArray&amp; rightSide) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">this</span> != &amp;rightSide) &#123;</span><br><span class="line">        <span class="keyword">delete</span> [] a;</span><br><span class="line">        maxNumber = rightSide.maxNumber;</span><br><span class="line">        numberUsed = rightSide.numberUsed;</span><br><span class="line">        a = <span class="keyword">new</span> <span class="type">double</span>[maxNumber];</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; numberUsed; i++) &#123;</span><br><span class="line">            a[i] = rightSide.a[i];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Overloaded operator&lt;&lt;</span></span><br><span class="line">ostream&amp; <span class="keyword">operator</span>&lt;&lt;(ostream&amp; outs, <span class="type">const</span> PartFilledArray&amp; object) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; object.numberUsed; i++) &#123;</span><br><span class="line">        outs &lt;&lt; object.a[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> outs;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Destructor</span></span><br><span class="line">PartFilledArray::~<span class="built_in">PartFilledArray</span>() &#123;</span><br><span class="line">    <span class="keyword">delete</span> [] a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">// Create a PartFilledArray object of size 5</span></span><br><span class="line">    <span class="function">PartFilledArray <span class="title">pfa1</span><span class="params">(<span class="number">5</span>)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Add values to pfa1</span></span><br><span class="line">    pfa1.<span class="built_in">addValue</span>(<span class="number">1.1</span>);</span><br><span class="line">    pfa1.<span class="built_in">addValue</span>(<span class="number">2.2</span>);</span><br><span class="line">    pfa1.<span class="built_in">addValue</span>(<span class="number">3.3</span>);</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;pfa1: &quot;</span> &lt;&lt; pfa1 &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Create a new PartFilledArray object using the copy constructor</span></span><br><span class="line">    <span class="function">PartFilledArray <span class="title">pfa2</span><span class="params">(pfa1)</span></span>;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;pfa2: &quot;</span> &lt;&lt; pfa2 &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Create a PartFilledArray object of size 10</span></span><br><span class="line">    <span class="function">PartFilledArray <span class="title">pfa3</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Add values to pfa3</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        pfa3.<span class="built_in">addValue</span>(i * <span class="number">1.1</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;pfa3: &quot;</span> &lt;&lt; pfa3 &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Use the assignment operator to assign the value of pfa3 to pfa1</span></span><br><span class="line">    pfa1 = pfa3;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;pfa1: &quot;</span> &lt;&lt; pfa1 &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
 
         </div>
 
@@ -486,7 +422,11 @@
             <ul class="post-tags-box">
                 
                     <li class="tag-item">
-                        <a href="/tags/Hexo/">#Hexo</a>&nbsp;
+                        <a href="/tags/C/">#C++</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item">
+                        <a href="/tags/Study/">#Study</a>&nbsp;
                     </li>
                 
             </ul>
@@ -497,21 +437,21 @@
         
             <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
                 
-                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
-                        <a class="prev"
-                        rel="prev"
-                        href="/2023/11/22/C-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E2%80%94%E2%80%94%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E4%BE%8B%E9%A2%98%E5%8F%8A%E4%BB%A3%E7%A0%81/"
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2023/11/10/%E7%9D%80%E6%89%8B%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%81/"
                         >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
                             <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">C++面向对象——一些基础例题及代码</span>
-                                <span class="post-nav-item">Prev posts</span>
+                                <span class="post-nav-title-item">着手写自己的第一篇博客！</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
                             </span>
                         </a>
                     </div>
-                
                 
             </div>
         
@@ -525,8 +465,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">着手写自己的第一篇博客！</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%90%8C%E7%94%9F%E6%83%B3%E6%B3%95"><span class="nav-text">萌生想法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%8D%E6%AC%A1%E8%A1%8C%E5%8A%A8"><span class="nav-text">再次行动</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8A%A8%E6%89%8B"><span class="nav-text">动手</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E5%B0%BE"><span class="nav-text">结尾</span></a></li></ol>
+        <div class="page-title">C++面向对象——一些基础例题及代码</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Destructure-Function-and-Overloaded-Operator"><span class="nav-text">1. Destructure Function and Overloaded Operator.</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#The-Question"><span class="nav-text">The Question:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#My-Solution"><span class="nav-text">My Solution:</span></a></li></ol></li></ol>
 
     </div>
 </div>
