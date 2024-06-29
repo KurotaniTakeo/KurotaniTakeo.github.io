@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "08586c39afecece3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5415851ad0ad0d30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ab92096b98e6f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/VF事件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d706d16e44ad3bea",
+    "type": "split",
+    "children": [
+      {
+        "id": "a22ac4cbf80ebb57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9895f13db04f88f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bfb524f21413de46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "edb6b436c8d14ea7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d8fb24191b2ef4bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f58e217e63d1f2a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f52408d995b5ec26",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "source/_posts/VF事件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae8a9505f7d90367",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source/_posts/VF事件.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2bd90b1eb257cd19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8f39ed3cebf47f6b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/VF事件.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9ab92096b98e6f54",
+  "lastOpenFiles": [
+    "Log_中_VF_翻箱部分.png",
+    "source/_posts/着手写自己的第一篇博客！.md",
+    "source/_posts/速看！天天熬夜也能保证自己不会猝死的方法！.md"
+  ]
+}
