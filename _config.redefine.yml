@@ -21,9 +21,9 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/takeo_avatar.png
+  favicon: /images/takeo_icon.png
   # Site logo
-  logo:
+  logo: /images/takeo_icon.png
   # Site avatar
   avatar: /images/takeo_avatar.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -309,7 +309,7 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: false
+    enable: true
     # Article recommendation title
     title: 推荐阅读
     # Max number of articles to display
@@ -317,7 +317,8 @@ articles:
     # Max number of articles to display mobile
     mobile_limit: 2
     # Placeholder image
-    placeholder: /images/wallhaven-wqery6-light.webp
+    placeholder: /images/
+
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -409,13 +410,63 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: Aromatic # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Aromatic.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Bitter Sweet # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Bitter Sweet.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Brew-tiful # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Brew-tiful.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Closing Time # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Closing Time.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Decaf # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Decaf.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Hug in a Mug # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Hug in a Mug.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: I Saved You a Seat # audio name
+        artist: Walking Dog # audio artist
+        url: /music/I Saved You a Seat.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Lazy Weekend # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Lazy Weekend.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Sidewalks # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Sidewalks.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Wind it Down # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Wind it Down.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
+        lrc: # audio cover lrc
+      - name: Your Smile # audio name
+        artist: Walking Dog # audio artist
+        url: /music/Your Smile.mp3 # audio url
+        cover: /images/WD.webp # audio cover url
         lrc: # audio cover lrc
   #      - name: # audio name
   #        artist: # audio artist
