@@ -16,7 +16,7 @@ excerpt: "多图流量预警！高血压患者迅速远离！"
 - WindSpiritSR：条目编辑者，5 条贡献
 - Pjo Gwo (AnTooLot_254890)：条目编辑者，1 条贡献
 
-在博客中，我（Kurotani Takeo）以~~（因为过于经典且为 Oasis/SoTap 玩家于是想要）~~备份为由，将文章遵循 [**CC-BY-NC-SA 4.0 协议**](https://creativecommons.org/licenses/by-nc-sa/4.0/) 转载至本博客，并进行了由 Wikitext 转换为 Markdown 的处理。由于 Markdown 的限制，脚注部分需要另寻方法解决。（待完成）
+在博客中，我（Kurotani Takeo）以~~（因为过于经典且为 Oasis/SoTap 玩家津津乐道，于是想要）~~备份为由，将文章遵循 [**CC-BY-NC-SA 4.0 协议**](https://creativecommons.org/licenses/by-nc-sa/4.0/) 转载至本博客，并进行了由 Wikitext 转换为 Markdown 的处理。由于 Markdown 的限制，脚注部分需要另寻方法解决。（待完成）
 
 此提示块下方的内容为《VF 事件》原文。{% endnotel %}
 
