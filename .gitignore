@@ -6,5 +6,4 @@ public/
 node_modules/
 .deploy*/
 _multiconfig.yml
-db.json
-.obsidian
+.obsidian/

@@ -11,8 +11,6 @@
 info:
   # Site title
   title: Doggy Lounge
-  # Site subtitle
-  subtitle: Bark Bark
   # Author name
   author: Kurotani Takeo
   # Site URL
@@ -85,7 +83,7 @@ global:
   # Whether to enable Preloader.
   preloader:
     enable: true
-    custom_message: Lounge Loading... # Custom message. If empty, the site title will be displayed
+    custom_message: # Custom message. If empty, the site title will be displayed
   # Whether to enable open graph
   open_graph:
     enable: true
@@ -127,12 +125,10 @@ home_banner:
   subtitle:
     text: [
         "Bark Bark!",
-        "The world can't live without DeepSleep!",
         "The world can't live without DogGPT!",
         "Arknights!",
-        "It's not a lake, it's an ocean! - Alan Wake",
-        "It's not a bug, it's a feature!",
-        "It's so hard to make up...",
+        "It's hard to make up a slogan...",
+        "Java smells good!",
       ] # subtitle text, array
     hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto
@@ -174,7 +170,9 @@ home_banner:
     links:
       github: https://github.com/KurotaniTakeo # your GitHub URL
       bilibili: https://space.bilibili.com/32305427
-      fa-brands fa-weibo: https://www.weibo.com/u/7764142523
+      instagram: # your Instagram URL
+      zhihu: # your ZhiHu URL
+      twitter: # your twitter URL
       email: kurotake@foxmail.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
@@ -205,11 +203,6 @@ navbar:
     Friends: #取名随意
       icon: fa-solid fa-link #图标
       path: /links/
-    Links:
-      icon: fa-regular fa-link
-      submenus:
-        TAKEO's Storage: https://dl.krtk.top
-        RStudio Server: https://rs.krtk.top
     About:
       icon: fa-regular fa-user
       path: /about

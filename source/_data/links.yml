@@ -1,3 +1,22 @@
+- links_category: 友链！
+  has_thumbnail: True
+  list:
+    - name: WindSpirit Blog
+      link: https://leviatan.cn/
+      description: Just a human.
+      avatar: \images\wssr_avatar.png
+      thumbnail: \images\wssr_thumb.png
+    - name: SolitudeScroll
+      link: https://subilan.win/
+      description: Satellite yourself.
+      avatar: \images\subilan_avatar.png
+      thumbnail: \images\subilan_thumb.jpg
+    # - name: Kyoku.
+    #   link: https://blog.kyoku.top/
+    #   description: 音声合成相关/菜的要死的在学程序猿
+    #   avatar: https://img.kyoku.top/logo.png
+    #   thumbnail: https://img.kyoku.top/relay-outer.webp
+
 - links_category: 关于我
   has_thumbnail: False
   list:
@@ -6,22 +25,3 @@
       description: Forever on the Path of Learning
       avatar: /images/takeo_avatar.png
       thumbnail:
-
-- links_category: 友链！
-  has_thumbnail: True
-  list:
-    - name: WindSpirit IT Blog
-      link: https://www.leviatan.cn/
-      description: 跟随互联网发展的每一步
-      avatar: https://img.leviatan.cn/images/2023/10/22/cat2e4e9bd20b277dfe.png
-      thumbnail: https://img.leviatan.cn/images/2023/10/22/unix-wallpaper-108075a4a47a32158277.md.png
-    - name: Subilan's Blog
-      link: https://subilan.win/
-      description: Satellite yourself.
-      avatar: https://fnmdp.oss-cn-beijing.aliyuncs.com/assets/avatar-big.jpg
-      thumbnail: \images\subilan.jpg
-    # - name: Kyoku.
-    #   link: https://blog.kyoku.top/
-    #   description: 音声合成相关/菜的要死的在学程序猿
-    #   avatar: https://img.kyoku.top/logo.png
-    #   thumbnail: https://img.kyoku.top/relay-outer.webp
