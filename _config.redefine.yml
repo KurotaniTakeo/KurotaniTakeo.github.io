@@ -86,6 +86,12 @@ global:
   preloader:
     enable: true
     custom_message: Lounge Loading... # Custom message. If empty, the site title will be displayed
+  # Side tools settings
+  side_tools:
+    # Whether to enable gear rotation animation for settings button
+    gear_rotation: true
+    # Whether to auto expand tools list on page load
+    auto_expand: false
   # Whether to enable open graph
   open_graph:
     enable: true
@@ -217,7 +223,7 @@ navbar:
         RStudio Server: https://rs.krtk.top
     About:
       icon: fa-regular fa-user
-      path: /about
+      path: /about/
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
@@ -258,13 +264,13 @@ home:
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
       Tags:
-        path: /tags
+        path: /tags/
         icon: fa-regular fa-tags # can be empty
       Archives:
-        path: /archives
+        path: /archives/
         icon: fa-regular fa-archive # can be empty
       Categories:
-        path: /categories
+        path: /categories/
         icon: fa-regular fa-folder # can be empty
       # ...... # you can add more
   # Article date format
@@ -360,7 +366,7 @@ comment:
   # Whether to enable comment
   enable: false
   # Comment system
-  system: gitalk # waline, gitalk, twikoo, giscus
+  system: gitalk # waline, gitalk, twikoo, giscus, utterances, artalk
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -396,6 +402,18 @@ comment:
       lang: en # Giscus language. e.g. en, zh-CN, zh-TW
       input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
+    # Artalk comment system. See https://artalk.js.org/
+    artalk:
+      server: # Artalk server URL. e.g. https://artalk.example.com
+      site: # Site name shown in Artalk admin (should match server-side site config)
+    # Utterances comment system. See https://utteranc.es/
+    utterances:
+      repo: # GitHub repository name e.g. owner/repo (Issues must be enabled)
+      issue_term: pathname # pathname, url, title, og:title (recommended: pathname for single-page mode)
+      issue_number: # Use a specific issue number instead of issue_term
+      label: # Optional label for created issues
+      theme_light: github-light # Light theme
+      theme_dark: github-dark # Dark theme
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -509,6 +527,9 @@ plugins:
   mermaid:
     enable: false # enable mermaid or not
     version: "11.4.1" # default v11.4.1
+    theme:
+      light: "default"
+      dark: "dark"
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # PAGE TEMPLATES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -518,6 +539,10 @@ page_templates:
   friends_column: 2
   # Tags page style
   tags_style: blur # blur, cloud
+  # Masonry page batch size
+  masonry:
+    batch_size: 12
+    initial_batch_size: 24
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # CDN >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
