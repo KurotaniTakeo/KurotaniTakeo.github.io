@@ -7,4 +7,9 @@ node_modules/
 .deploy*/
 _multiconfig.yml
 .obsidian/
+.openchamber/
 _config.redefine_old*
+
+# 部署相关（仅本地使用，不入库）
+deploy/
+.dockerignore

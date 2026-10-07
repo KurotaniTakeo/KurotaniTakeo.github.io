@@ -172,14 +172,19 @@ home_banner:
     style: center # default, reverse, center
     # Social links
     links:
-      github: https://github.com/KurotaniTakeo # your GitHub URL
-      bilibili: https://space.bilibili.com/32305427
-      fa-brands fa-weibo: https://www.weibo.com/u/7764142523
-      email: kurotake@foxmail.com # your email
+      - icon: github
+        url: https://github.com/KurotaniTakeo # your GitHub URL
+      - icon: bilibili
+        url: https://space.bilibili.com/32305427
+      - icon: fa-brands fa-weibo
+        url: https://www.weibo.com/u/7764142523
+      - icon: email
+        url: kurotake@foxmail.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
-    qrs:
-      weixin: # your Wechat QRcode image URL
+    qrs: []
+      # - icon: weixin # your Wechat QRcode image URL
+      #   qr:
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
